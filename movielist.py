@@ -1,6 +1,6 @@
 import bs4 as bs
 import urllib2
-url = "http://in.bookmyshow.com/kolkata/movies"
+url = "http://in.bookmyshow.com/hyderabad/movies"
 request = urllib2.Request(url)
 response = urllib2.urlopen(request)
 soup = bs.BeautifulSoup(response, 'lxml')
